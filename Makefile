@@ -3,7 +3,7 @@ HEADERS = $(wildcard lib/includes/*.h)
 
 OBJ = ${CPP_SOURCES: .c=.o}
 
-CPPFLAGS = -l ncurses -l pthread
+CPPFLAGS = -l ncurses -l pthread -std=c++11
 
 INCLUDES = -I lib
 

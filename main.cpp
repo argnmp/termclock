@@ -24,6 +24,7 @@ std::condition_variable menu;
 //buttons for stopwatch
 std::condition_variable stop;
 std::condition_variable reset;
+
 int main(int argc, char * const * argv){
   int velocity = 1;
   int op;
@@ -62,3 +63,4 @@ int main(int argc, char * const * argv){
 
   return 0;
 }
+
